@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"><b>TicTacToe</b></string>
+    <string name="scb">Scoreboard</string>
+    <string name="mp">Multiplayer</string>
+    <string name="game">Game</string>
+    <string name="frag1">Fragment1</string>
+    <string name="frag2">Fragment2</string>
+    <string name="names_string">Specify Players Names</string>
+    <string name="Player1">X</string>
+    <string name="Player2">O</string>
+</resources>

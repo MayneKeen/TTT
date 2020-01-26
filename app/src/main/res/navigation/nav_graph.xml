@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.lab.ttt.ui.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/menu2" />
+
+    <fragment
+        android:id="@+id/multiplayerFragment"
+        android:name="com.lab.ttt.ui.MultiplayerFragment"
+        android:label="fragment_multiplayer"
+        tools:layout="@layout/multiplayer_fragment" />
+
+    <fragment
+        android:id="@+id/scbFragment"
+        android:name="com.lab.ttt.ui.ScoreBoardFragment"
+        android:label="fragment_scoreboard"
+        tools:layout="@layout/scoreboard_fragment" />
+
+</navigation>
